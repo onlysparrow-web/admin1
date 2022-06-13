@@ -1,0 +1,204 @@
+* {
+  font-family: "Montserrat";
+}
+
+.top {
+  height: 60px;
+  background-color: deepskyblue;
+}
+.headerLogo {
+  padding-top: 0px;
+  padding-left: 0px;
+  width: 10%;
+}
+.nodots li {
+  list-style-type: none;
+}
+
+.nodots {
+  line-height: 70px;
+  background-color: rgb(250 250 209 / 50%);
+  height: 100%;
+  position: absolute;
+  width: 200px;
+  text-align: center;
+}
+li a {
+  color: black;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+.nodots img {
+  width: 42%;
+}
+.firstli {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firstsection {
+  margin-left: 250px;
+  padding-top: 50px;
+}
+.Fsds {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  line-height: 25px;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid;
+  border-radius: 11px;
+  position: relative;
+  height: 140px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.buttons {
+  text-align: right;
+  padding-right: 20px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+  right: 0;
+}
+
+.subsections h2 {
+  font-size: 35px;
+  color: white;
+}
+.batches {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.students span {
+  font-weight: bold;
+  font-size: 15px;
+}
+.details span {
+  font-weight: bold;
+  font-size: 15px;
+}
+.students,
+.details {
+  display: inline-block;
+}
+
+.Fsds p {
+  font-size: 13px;
+  display: inline;
+}
+.bg {
+  background-image: url(assets/bg.jpg);
+}
+.secondpage {
+  margin-left: 250px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.table {
+  border: 2px solid;
+  background-color: white;
+}
+.table th {
+  border: 2px solid;
+}
+.table td {
+  border: 2px solid;
+}
+.table th {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 98px;
+  padding-right: 98px;
+  text-align: center;
+}
+.table td {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 98px;
+  padding-right: 98px;
+  text-align: center;
+}
+.thirdpage {
+  margin-left: 350px;
+  margin-top: 150px;
+}
+.studentdetails {
+  display: flex;
+  justify-content: center;
+  /* margin-left: auto; */
+  border-radius: 30px;
+  /* margin-right: auto; */
+}
+
+.stddetails1,
+.stddetails2 {
+  display: flex;
+  flex-direction: column;
+  line-height: 100px;
+  padding-left: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding-right: 5px;
+}
+.leftdetails p {
+  display: inline;
+  padding-left: 25px;
+}
+.stddetails1 p {
+  display: inline;
+}
+.stddetails2 p {
+  display: inline;
+}
+.stddetails1 span {
+  font-weight: bold;
+  font-size: larger;
+}
+.stddetails2 span {
+  font-weight: bold;
+  font-size: larger;
+}
+.thirdpage h4 {
+  font-size: 30px;
+  color: white;
+  padding-bottom: 15px;
+}
+.fourthpage {
+  margin-left: 350px;
+  margin-top: 150px;
+}
+.forms {
+  display: flex;
+  line-height: 30px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  width: 620px;
+  margin-left: inherit;
+}
+.det {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.leftforms {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.rightforms {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.fourthpage h4 {
+  font-size: 25px;
+  color: white;
+  padding-bottom: 30px;
+}
+.fourthpage button {
+  padding: 5px 5px 5px 5px;
+}
